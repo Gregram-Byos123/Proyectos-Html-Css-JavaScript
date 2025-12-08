@@ -1,0 +1,38 @@
+body{
+    background-color: rgba(255, 174, 0, 0.438);
+}
+
+span{
+    text-decoration:underline;
+}
+
+div{
+    text-align: center;
+}
+
+.card{
+    background-color: blueviolet;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width:30%;
+    height: 100px;
+    box-sizing: border-box;
+    margin-left: 529px;
+    font-size: 20px;
+}
+
+.Text-botton{
+    font-style: italic;
+    text-align: center;
+    font-size:15px;
+}
+
+button{
+    box-sizing: content-box;
+    border: 4px solid black;
+    border-radius: 10px;
+    font-style: oblique;
+    padding: 10px 50px;
+    background-color: rgb(12, 218, 167);
+}

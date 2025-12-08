@@ -1,0 +1,101 @@
+body{
+    background: linear-gradient(180deg, rgb(1, 1, 133) 100%, rgb(26, 26, 101)100%);
+
+}
+
+table{
+    border: 10px solid rgb(164, 0, 0);
+    border-radius: 27px;
+    margin-top: 30px;
+    padding: 1px;
+    margin-left: 300px;
+    margin-right: 300px;
+    -webkit-text-fill-color: whitesmoke;
+    text-align: center;
+    width: 100px;
+  height: 100px;
+  
+  position: relative;
+  animation-name: Aparicion-colorida;
+  animation-duration: 20s;
+}
+
+h1{
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Campos{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-fill-color: rgb(205, 136, 136);
+}
+
+#NameOS{
+    -webkit-text-fill-color: chartreuse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    -webkit-text-fill-color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.GNU-LINUX{
+    border: 10px solid black;
+    padding: 0%;
+    border-radius: 10px;
+}
+
+.LINUX-INTERFAZ{
+    border: 10px solid black;
+    padding: 0%;
+    border-radius: 10px;
+}
+
+.Logo-Windows{
+    border: 10px solid burlywood;
+    border-radius: 10px;
+    padding: 0%;
+}
+
+.interfaz-windows{
+    border: 10px solid bisque;
+    border-radius: 10px;
+    padding: 0%;
+}
+
+.Logo-macOS{
+    border: 10px solid cyan;
+    border-radius: 10px;
+    padding: 0%;
+}
+
+.Interfaz-macOS{
+   border: 10px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 0%; 
+}
+
+.Logo-KaliLinux{
+    border: 10px solid rgb(43, 0, 255);
+    border-radius: 10px;
+    padding: 0%; 
+}
+
+.Interfaz-KaliLinux{
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 0%; 
+}
+
+@keyframes Aparicion-colorida{
+     0%   {background-color:rgb(1, 1, 133); left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:rgb(0, 255, 221); left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:rgb(1, 1, 133); left:0px; top:0px;}
+}
