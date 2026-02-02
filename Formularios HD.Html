@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario con CSS</title>
+    <link rel="stylesheet" href="Formularios HD.Css">
+</head>
+<body>
+
+    <form class="formulario">
+        <h1>Formulario de Registro</h1>
+
+        <label>
+            Nombre
+            <input type="text" name="nombre" required>
+        </label>
+
+        <label>
+            Apellido
+            <input type="text" name="apellido" required>
+        </label>
+
+        <label>
+            Email
+            <input type="email" name="email" required>
+        </label>
+
+        <label>
+            Edad
+            <input type="number" name="edad" min="1" required>
+        </label>
+
+        <label>
+            Área Técnica
+            <select name="area" required>
+                <option value="">Selecciona un área</option>
+                <option value="programacion">Informática</option>
+                <option value="diseño">Gastronomía</option>
+                <option value="redes">Electricidad</option>
+                <option value="programacion">Enfermería</option>
+                <option value="programacion">Contabilidad</option>
+            </select>
+        </label>
+
+        <button type="submit">Enviar información</button>
+    </form>
+
+</body>
+</html>
