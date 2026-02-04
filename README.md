@@ -19,7 +19,7 @@ No requiere instalación.
 
 
 ## Uso
-Explica en una o dos líneas cómo se usa el proyecto una vez ejecutado.
+Una vez ejecutado como se expone en el apartado anterior, se visualizarán los resultados del HTML, CSS y JS manifestados en una página web funcional, estética y con excelente base estructural.
 
 ## Estructura
 - `index.html` Es donde se guarda la estructura de las páginas.
