@@ -14,8 +14,8 @@ Está pensado para programadores principiantes (como yo en algún momento) que d
 ## Instalación
 No requiere instalación.
 
-1. Clona el repositorio  
-2. Abre el archivo `index.html` en el navegador
+1. Clona el repositorio.  
+2. Abre el archivo `index.html` en el navegador.
 
 
 ## Uso
@@ -23,11 +23,11 @@ Explica en una o dos líneas cómo se usa el proyecto una vez ejecutado.
 
 ## Estructura
 - `index.html` Es donde se guarda la estructura de las páginas.
-- `style.css` Es las decoraciones hechas sobre la estructura (animaciones, interacciones, hovers, gradientes, colores, backgrounds...)
+- `style.css` Es las decoraciones hechas sobre la estructura (animaciones, interacciones, hovers, gradientes, colores, backgrounds...).
 - `script.js` La parte funcional de la página/as dónde se ubican los algoritmos, funciones y parte totalmente funcional de las páginas webs.
 
 ## Estado del proyecto
-En desarrollo
+En desarrollo.
 
 ## Autor
 Gregory E. Zorrilla R.
