@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocalizador con IP</title>
+    <link rel="stylesheet" href="Geolocalización.css">
+    <link rel="shortcut icon" href="../Imagenes pre-cargadas/download.png" type="image/pmg">
+</head>
+<body>
+    <div class="card">
+        <h2>Descubre tu ubicación exacta</h2>
+        <p class="subtitle">Detectada mediante tu dirección IP</p>
+        <div id="resultado" class="loading">Esperando tu click...</div>
+        <div class="info-grid">
+            <div class="info-item">
+                <span>Ciudad</span>
+                <strong id="ciudad">-</strong>
+            </div>
+            <div class="info-item">
+                <span>Región</span>
+                <strong id="region">-</strong>
+            </div>
+            <div class="info-item">
+                <span>País</span>
+                <strong id="pais">-</strong>
+            </div>
+            <div class="info-item">
+                <span>Coordenadas</span>
+                <strong id="coords">-</strong>
+            </div>
+        </div>
+        <button onclick="consultarUbicacion()">Actualizar Ubicación</button>
+    </div>
+    <script src="Geolocalización.js"></script>
+</body>
+</html>
